@@ -1,10 +1,9 @@
 matrix:
   include:
     - language: java
-      arch:
+    - arch:
         - amd64
         - ppc64le
-        
       # jdk:
       #  - oraclejdk8
       sudo: false
